@@ -989,6 +989,326 @@
         )
       )
     )
+    (symbol "PCM_marbastlib-various:SRV05-4" (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at -5.08 11.43 0)
+        (effects (font (size 1.27 1.27)) (justify right))
+      )
+      (property "Value" "SRV05-4" (at 2.54 11.43 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "PCM_marbastlib-various:SOT-23-6-routable" (at 17.78 -11.43 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "ESD protection diodes" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SOT?23*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "SRV05-4_0_0"
+        (rectangle (start -5.715 6.477) (end 5.715 -6.604)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.175 -6.604)
+            (xy -3.175 6.477)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.175 6.477)
+            (xy 3.175 -6.604)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "SRV05-4_0_1"
+        (rectangle (start -7.62 10.16) (end 7.62 -10.16)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (circle (center -5.715 -2.54) (radius 0.2794)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (circle (center -3.175 -6.604) (radius 0.2794)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (circle (center -3.175 2.54) (radius 0.2794)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (circle (center -3.175 6.477) (radius 0.2794)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (circle (center 0 -6.604) (radius 0.2794)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy -7.747 2.54)
+            (xy -3.175 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -7.62 -2.54)
+            (xy -5.715 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.08 -3.81)
+            (xy -6.35 -3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.08 5.08)
+            (xy -6.35 5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -3.81)
+            (xy -3.81 -3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 5.08)
+            (xy -3.81 5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 10.16)
+            (xy 0 -10.16)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.81 -3.81)
+            (xy 2.54 -3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.81 5.08)
+            (xy 2.54 5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 6.35 -3.81)
+            (xy 5.08 -3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 6.35 5.08)
+            (xy 5.08 5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 7.62 -2.54)
+            (xy 3.175 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 7.62 2.54)
+            (xy 5.715 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 0.889)
+            (xy -0.635 0.889)
+            (xy -0.635 0.635)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.08 -5.08)
+            (xy -6.35 -5.08)
+            (xy -5.715 -3.81)
+            (xy -5.08 -5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.08 3.81)
+            (xy -6.35 3.81)
+            (xy -5.715 5.08)
+            (xy -5.08 3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -5.08)
+            (xy -3.81 -5.08)
+            (xy -3.175 -3.81)
+            (xy -2.54 -5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 3.81)
+            (xy -3.81 3.81)
+            (xy -3.175 5.08)
+            (xy -2.54 3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 -0.381)
+            (xy -0.635 -0.381)
+            (xy 0 0.889)
+            (xy 0.635 -0.381)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.81 -5.08)
+            (xy 2.54 -5.08)
+            (xy 3.175 -3.81)
+            (xy 3.81 -5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.81 3.81)
+            (xy 2.54 3.81)
+            (xy 3.175 5.08)
+            (xy 3.81 3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 6.35 -5.08)
+            (xy 5.08 -5.08)
+            (xy 5.715 -3.81)
+            (xy 6.35 -5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 6.35 3.81)
+            (xy 5.08 3.81)
+            (xy 5.715 5.08)
+            (xy 6.35 3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 0 6.477) (radius 0.2794)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (circle (center 3.175 -6.604) (radius 0.2794)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (circle (center 3.175 -2.54) (radius 0.2794)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (circle (center 3.175 6.477) (radius 0.2794)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (circle (center 5.715 2.54) (radius 0.2794)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+      )
+      (symbol "SRV05-4_1_1"
+        (pin passive line (at -12.7 2.54 0) (length 5.08)
+          (name "IO1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -12.7 90) (length 2.54)
+          (name "VN" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 12.7 2.54 180) (length 5.08)
+          (name "IO2" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 12.7 -2.54 180) (length 5.08)
+          (name "IO3" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 12.7 270) (length 2.54)
+          (name "VP" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -12.7 -2.54 0) (length 5.08)
+          (name "IO4" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "PCM_marbastlib-various:TC2030_SWD" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -3.81 -6.35 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -1270,353 +1590,6 @@
         (pin power_in line (at 0 -40.64 90) (length 2.54)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Power_Protection:WE-TVS-824015043" (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 12.7 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "WE-TVS-824015043" (at 0 10.16 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 1.27 -8.89 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.we-online.com/components/products/datasheet/824015043.pdf" (at 1.27 -10.16 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "ESD Protection TVS High-speed USB" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Low Capacitance TVS Diode Array, 2 Channels, SOT-23-6" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOT?23*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "WE-TVS-824015043_0_1"
-        (rectangle (start -7.62 -7.62) (end 7.62 7.62)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (circle (center -5.08 2.54) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center -2.54 -6.35) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center -2.54 -2.54) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center -2.54 6.35) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start -2.54 6.35) (end 2.54 -6.35)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 0 -6.35) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy -5.08 2.54)
-            (xy -7.62 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.064 -3.429)
-            (xy -6.096 -3.429)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.064 5.461)
-            (xy -6.096 5.461)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -2.54)
-            (xy -7.62 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.524 -3.429)
-            (xy -3.556 -3.429)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.524 5.461)
-            (xy -3.556 5.461)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -7.62)
-            (xy 0 -6.35)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -6.35)
-            (xy 0 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 1.27)
-            (xy 0 6.35)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 6.35)
-            (xy 0 7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.524 -3.429)
-            (xy 3.556 -3.429)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.524 5.461)
-            (xy 3.556 5.461)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 2.54)
-            (xy 7.62 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 4.064 -3.429)
-            (xy 6.096 -3.429)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 4.064 5.461)
-            (xy 6.096 5.461)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 -2.54)
-            (xy 7.62 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.096 -5.461)
-            (xy -4.064 -5.461)
-            (xy -5.08 -3.429)
-            (xy -6.096 -5.461)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.096 3.429)
-            (xy -4.064 3.429)
-            (xy -5.08 5.461)
-            (xy -6.096 3.429)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.556 -5.461)
-            (xy -1.524 -5.461)
-            (xy -2.54 -3.429)
-            (xy -3.556 -5.461)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.556 3.429)
-            (xy -1.524 3.429)
-            (xy -2.54 5.461)
-            (xy -3.556 3.429)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 6.35)
-            (xy -5.08 6.35)
-            (xy -5.08 -6.35)
-            (xy -2.54 -6.35)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 -1.016)
-            (xy 1.016 -1.016)
-            (xy 0 1.016)
-            (xy -1.016 -1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.016 1.016)
-            (xy 0.762 1.016)
-            (xy -1.016 1.016)
-            (xy -1.016 0.508)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 6.35)
-            (xy 5.08 6.35)
-            (xy 5.08 -6.35)
-            (xy 2.54 -6.35)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.556 -5.461)
-            (xy 1.524 -5.461)
-            (xy 2.54 -3.429)
-            (xy 3.556 -5.461)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.556 3.429)
-            (xy 1.524 3.429)
-            (xy 2.54 5.461)
-            (xy 3.556 3.429)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 6.096 -5.461)
-            (xy 4.064 -5.461)
-            (xy 5.08 -3.429)
-            (xy 6.096 -5.461)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 6.096 3.429)
-            (xy 4.064 3.429)
-            (xy 5.08 5.461)
-            (xy 6.096 3.429)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 0 6.35) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 2.54 -6.35) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 2.54 2.54) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 2.54 6.35) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 5.08 -2.54) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "WE-TVS-824015043_1_1"
-        (pin passive line (at -10.16 2.54 0) (length 2.54)
-          (name "I/O1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -10.16 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -10.16 -2.54 0) (length 2.54)
-          (name "I/O2" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 10.16 2.54 180) (length 2.54)
-          (name "I/O3" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 10.16 270) (length 2.54)
-          (name "VBUS" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 10.16 -2.54 180) (length 2.54)
-          (name "I/O4" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -2656,8 +2629,8 @@
   (no_connect (at 119.38 64.77) (uuid 30d2aafd-5b12-4b04-99e0-cc76235f4dfc))
   (no_connect (at 228.6 58.42) (uuid 3444d192-dc4c-4dbd-9d61-aff85d5c3b8e))
   (no_connect (at 237.49 125.73) (uuid 35daf311-5c1f-4458-8bcb-a692e42c7d49))
-  (no_connect (at 267.97 58.42) (uuid 51efd5c4-bed2-43a2-8131-251653ad5363))
-  (no_connect (at 247.65 63.5) (uuid 63a4e5b1-d349-4bab-85b8-53cc2b1de29a))
+  (no_connect (at 270.51 55.88) (uuid 51efd5c4-bed2-43a2-8131-251653ad5363))
+  (no_connect (at 245.11 60.96) (uuid 63a4e5b1-d349-4bab-85b8-53cc2b1de29a))
 
   (wire (pts (xy 254 100.33) (xy 259.08 100.33))
     (stroke (width 0) (type default))
@@ -2778,10 +2751,6 @@
   (wire (pts (xy 237.49 27.94) (xy 241.3 27.94))
     (stroke (width 0) (type default))
     (uuid 2706fb28-3341-42d8-b675-c209d6575fda)
-  )
-  (wire (pts (xy 86.36 43.18) (xy 85.09 43.18))
-    (stroke (width 0) (type default))
-    (uuid 286f5103-455f-49d2-9a22-aa659234ff58)
   )
   (wire (pts (xy 54.61 175.26) (xy 54.61 191.77))
     (stroke (width 0) (type default))
@@ -2935,6 +2904,10 @@
     (stroke (width 0) (type default))
     (uuid 63bf5abe-220b-488c-b870-2062238560ad)
   )
+  (wire (pts (xy 86.36 60.96) (xy 85.09 60.96))
+    (stroke (width 0) (type default))
+    (uuid 648121d3-2614-4d4a-b64c-1498f98a5e7c)
+  )
   (wire (pts (xy 36.83 154.94) (xy 44.45 154.94))
     (stroke (width 0) (type default))
     (uuid 6787c396-c399-4c41-b8cc-f661a28cc572)
@@ -3059,10 +3032,6 @@
     (stroke (width 0) (type default))
     (uuid 9bf3182d-1b53-4bed-a48a-3be7ebe94b18)
   )
-  (wire (pts (xy 86.36 60.96) (xy 85.09 60.96))
-    (stroke (width 0) (type default))
-    (uuid 9f917a3f-0406-4758-88c1-ed4642b124c9)
-  )
   (wire (pts (xy 213.36 67.31) (xy 212.09 67.31))
     (stroke (width 0) (type default))
     (uuid 9fab5029-3679-4abe-a6fb-f7285ce90e79)
@@ -3090,6 +3059,10 @@
   (wire (pts (xy 198.12 107.95) (xy 198.12 133.35))
     (stroke (width 0) (type default))
     (uuid a9a1b8dd-8096-4d29-ba93-9d42da13fb36)
+  )
+  (wire (pts (xy 86.36 58.42) (xy 85.09 58.42))
+    (stroke (width 0) (type default))
+    (uuid aa255625-da35-4daa-a52a-c8ce33b214c4)
   )
   (wire (pts (xy 208.28 128.27) (xy 212.09 128.27))
     (stroke (width 0) (type default))
@@ -3170,10 +3143,6 @@
   (wire (pts (xy 271.78 158.75) (xy 256.54 158.75))
     (stroke (width 0) (type default))
     (uuid c892a464-45e7-4c8d-9468-167cd5501539)
-  )
-  (wire (pts (xy 86.36 58.42) (xy 85.09 58.42))
-    (stroke (width 0) (type default))
-    (uuid cb1b2d0a-6531-4956-aeef-32d144a8216e)
   )
   (wire (pts (xy 77.47 137.16) (xy 77.47 142.24))
     (stroke (width 0) (type default))
@@ -3361,6 +3330,20 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "col03" (shape input) (at 85.09 53.34 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 057b5083-daa9-458c-83e3-d53b64fbdfa3)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 93.397 53.34 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "col08" (shape input) (at 85.09 45.72 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 058dc68b-eac3-4eed-9824-68cc5cebaa75)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 93.397 45.72 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "RST" (shape input) (at 39.37 38.1 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 088e2116-b285-49a9-92b0-7896bab9397a)
@@ -3386,6 +3369,13 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 2c54bc8b-842f-4e37-ba3b-c6f321f6b303)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 46.99 128.853 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "col01" (shape input) (at 85.09 68.58 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 2d29c102-54ed-49ac-9a8f-31e000bd7a90)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 93.397 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -3424,10 +3414,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "usb-D-" (shape input) (at 247.65 58.42 180) (fields_autoplaced)
+  (global_label "usb-D-" (shape input) (at 245.11 55.88 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 61bf9e5e-db80-45b5-a67f-2510d4e81cf0)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 236.9239 58.42 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 234.3839 55.88 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -3445,11 +3435,18 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "usb-D+" (shape input) (at 267.97 63.5 0) (fields_autoplaced)
+  (global_label "usb-D+" (shape input) (at 270.51 60.96 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 681e4b0d-7bd6-45a9-879b-ffc6c84ca0f8)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 278.6961 63.5 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 281.2361 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "col10" (shape input) (at 39.37 88.9 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 6af03ede-ed36-4204-952a-2b3701023c47)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 31.063 88.9 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "alert" (shape output) (at 222.25 148.59 90) (fields_autoplaced)
@@ -3463,6 +3460,34 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 762ac5e6-8e3c-4404-825b-a4d4224908cd)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 77.47 128.853 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "col04" (shape input) (at 85.09 104.14 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 7aae0102-5f55-46cc-baa7-86a824f9e13d)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 93.397 104.14 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "row0" (shape input) (at 85.09 55.88 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 7d44720d-8c54-420c-b748-2fc04423ba7d)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 92.5504 55.88 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "col07" (shape input) (at 85.09 99.06 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 861beea4-b090-49b4-9a92-b7e8dcfa739d)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 93.397 99.06 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "col06" (shape input) (at 85.09 101.6 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 9c698690-01a8-488c-9165-e49bdef26199)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 93.397 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -3487,6 +3512,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "col02" (shape input) (at 85.09 50.8 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid a94f590f-dba2-4603-80cb-ca0fb5e4d8b7)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 93.397 50.8 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "RST" (shape output) (at 100.33 82.55 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ae0857c8-9b69-4e5d-a3ef-8061d9686a98)
@@ -3508,11 +3540,11 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "VSENSE" (shape input) (at 86.36 43.18 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid b45bedcf-f72e-4c03-af09-f3a1260f4cb3)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 96.4813 43.18 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+  (global_label "col11" (shape input) (at 39.37 101.6 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid ba83d68e-8181-4537-a372-2c628df19b46)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 31.063 101.6 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "sda" (shape bidirectional) (at 86.36 60.96 0) (fields_autoplaced)
@@ -3578,6 +3610,20 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "col00" (shape input) (at 85.09 66.04 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d5ae1943-6cad-49b0-a597-181714cff870)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 93.397 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "col09" (shape input) (at 85.09 96.52 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid da56eb05-d9cc-48ff-b1e7-fe814c2eae70)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 93.397 96.52 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "RST" (shape output) (at 119.38 59.69 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e7be1dac-d487-4371-a509-1ffb0d33d50c)
@@ -3610,6 +3656,13 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid fea6a84e-0e19-40cd-87cc-981ee99e0843)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 62.23 128.853 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "col05" (shape input) (at 85.09 43.18 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ff53d597-825a-47b1-84fb-fbd73017fd39)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 93.397 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -3718,8 +3771,8 @@
     (property "Datasheet" "~" (at 237.49 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 84e66a0c-9171-417c-aaab-67a633598ec0))
     (pin "1" (uuid 6d1b73e7-3d42-4af4-9cd4-3a767d5e4cad))
+    (pin "2" (uuid 84e66a0c-9171-417c-aaab-67a633598ec0))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -3801,9 +3854,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" (at 259.08 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "3" (uuid fb86e8a5-dc20-4f7b-97ca-fb53565071d2))
     (pin "1" (uuid 16466648-e18e-4381-86f6-45531ea3ba77))
     (pin "2" (uuid cbeec590-83cd-4365-8900-d119eef707bf))
+    (pin "3" (uuid fb86e8a5-dc20-4f7b-97ca-fb53565071d2))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -3924,8 +3977,8 @@
     (property "Datasheet" "~" (at 34.29 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 2f2806eb-ab88-4ea2-967a-46c16d386b68))
     (pin "1" (uuid 1054f1af-58a8-4799-8c0e-6895f09063c1))
+    (pin "2" (uuid 2f2806eb-ab88-4ea2-967a-46c16d386b68))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -4014,8 +4067,8 @@
     (property "Datasheet" "~" (at 49.53 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 47ad8c60-1fea-4e49-b275-905efb5b1e7b))
     (pin "1" (uuid 6148d94b-8fdd-4efb-90b7-bfa12a95124e))
+    (pin "2" (uuid 47ad8c60-1fea-4e49-b275-905efb5b1e7b))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -4040,8 +4093,8 @@
     (property "Datasheet" "~" (at 72.39 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c1df81a5-e0fc-49c8-98b6-d0435b4e47f8))
     (pin "1" (uuid bf6a059b-cdc8-4ec1-850f-ff658157d496))
+    (pin "2" (uuid c1df81a5-e0fc-49c8-98b6-d0435b4e47f8))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -4175,8 +4228,8 @@
     (property "Datasheet" "~" (at 208.28 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 0bb03be4-64a8-4448-a03d-8df16cbd81d8))
     (pin "1" (uuid 46f0a8ff-7279-4687-a317-6a57547d2eb5))
+    (pin "2" (uuid 0bb03be4-64a8-4448-a03d-8df16cbd81d8))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -4226,42 +4279,12 @@
     (property "Datasheet" "~" (at 87.63 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 9c6136e9-a28c-4e4b-af06-e1d883658c2d))
     (pin "1" (uuid 1cbb352c-6049-413d-b09c-aa4f471a6ba1))
+    (pin "2" (uuid 9c6136e9-a28c-4e4b-af06-e1d883658c2d))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
           (reference "CH21") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Power_Protection:WE-TVS-824015043") (at 257.81 60.96 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2ce6dab9-a60e-4a8c-8a2b-359200955725)
-    (property "Reference" "U2" (at 259.4611 48.26 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "WE-TVS-824015043" (at 259.4611 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 259.08 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.we-online.com/components/products/datasheet/824015043.pdf" (at 259.08 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a787e790-05a9-4a63-884b-493733191875))
-    (pin "5" (uuid beef4f63-8614-46b4-85c6-2eff2a29cf94))
-    (pin "4" (uuid 53faacc4-9a11-4227-bbf1-3d149d1b911f))
-    (pin "3" (uuid f5ed1f68-d5c9-46c0-b173-b1e7f1530796))
-    (pin "2" (uuid 2bbd96a9-e023-46de-95e4-a1143f295e3a))
-    (pin "6" (uuid 7d0bf8e3-cc04-4a68-9b7f-cccbaa130dd3))
-    (instances
-      (project "kiboard_wireless"
-        (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
-          (reference "U2") (unit 1)
         )
       )
     )
@@ -4333,8 +4356,8 @@
     (property "Datasheet" "~" (at 34.29 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 1e1df21f-c5ad-40ff-aeea-0b858bdd363a))
     (pin "1" (uuid c0bea898-ef4a-48e2-b0e5-c714ee1d9352))
+    (pin "2" (uuid 1e1df21f-c5ad-40ff-aeea-0b858bdd363a))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -4359,8 +4382,8 @@
     (property "Datasheet" "~" (at 110.49 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 2c931d6c-8acc-48e0-a1c0-f0acfeb4897a))
     (pin "1" (uuid c43cf9e7-1430-42d9-b13f-04e7ffb45321))
+    (pin "2" (uuid 2c931d6c-8acc-48e0-a1c0-f0acfeb4897a))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -4385,8 +4408,8 @@
     (property "Datasheet" "~" (at 261.62 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 714d1dff-378f-4041-9616-20593b531696))
     (pin "1" (uuid b6db5a90-3c72-4120-89e6-e3beb5bb542f))
+    (pin "2" (uuid 714d1dff-378f-4041-9616-20593b531696))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -4557,8 +4580,8 @@
     (property "Datasheet" "~" (at 49.53 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 5c1d6d7b-8151-477c-971b-6c3f33ed87c6))
     (pin "1" (uuid 699d0d40-9de3-4c84-b30b-7e1b60a06996))
+    (pin "2" (uuid 5c1d6d7b-8151-477c-971b-6c3f33ed87c6))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -4583,8 +4606,8 @@
     (property "Datasheet" "~" (at 209.55 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid d3715582-6d5a-4577-bea9-fa61e85a53f9))
     (pin "1" (uuid e8b32fa1-f67f-4270-8285-c0876e54c878))
+    (pin "2" (uuid d3715582-6d5a-4577-bea9-fa61e85a53f9))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -4634,8 +4657,8 @@
     (property "Datasheet" "~" (at 80.01 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 427a4d38-5b9b-4e9e-81c7-acc0d69ed942))
     (pin "1" (uuid 2462b728-daf4-4bd8-91ba-737e9ea6e06c))
+    (pin "2" (uuid 427a4d38-5b9b-4e9e-81c7-acc0d69ed942))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -4692,12 +4715,12 @@
     (property "Datasheet" " ~" (at 93.345 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 6b026d85-d8a5-4600-9cf2-d30bfe64dacf))
-    (pin "5" (uuid 39771647-45f4-4d63-99c4-f0a162801a2f))
     (pin "1" (uuid f5986d1f-6d70-4bcd-8744-422e8f7bd375))
     (pin "2" (uuid 5b885f22-5fd6-4d27-9c21-c45183d4c8a5))
-    (pin "6" (uuid 4c4044dc-fa29-4182-bf3c-a805bc48c518))
+    (pin "3" (uuid 6b026d85-d8a5-4600-9cf2-d30bfe64dacf))
     (pin "4" (uuid 6eb647e6-c235-4998-91d4-f156ff39980c))
+    (pin "5" (uuid 39771647-45f4-4d63-99c4-f0a162801a2f))
+    (pin "6" (uuid 4c4044dc-fa29-4182-bf3c-a805bc48c518))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -4797,8 +4820,8 @@
     (property "Datasheet" "~" (at 49.53 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 1b1caecc-c503-4447-aa6b-3a33d8da7d5d))
     (pin "1" (uuid 2f9b2b75-0918-44c6-8dfc-48e75f4bc8d8))
+    (pin "2" (uuid 1b1caecc-c503-4447-aa6b-3a33d8da7d5d))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -4823,8 +4846,8 @@
     (property "Datasheet" "~" (at 110.49 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid d4f55cbe-9249-44a3-8dd8-67bd2001c893))
     (pin "1" (uuid 3c42e5ef-45bf-4393-bfaf-bb1971fcd027))
+    (pin "2" (uuid d4f55cbe-9249-44a3-8dd8-67bd2001c893))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -4881,8 +4904,8 @@
     (property "Datasheet" "~" (at 87.63 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 378f97aa-74d9-4a58-9645-3b0194f167c8))
     (pin "1" (uuid 1a021e66-239a-4c25-9c27-146711d463f1))
+    (pin "2" (uuid 378f97aa-74d9-4a58-9645-3b0194f167c8))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -4907,8 +4930,8 @@
     (property "Datasheet" "~" (at 80.01 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 2d4de90f-da3f-4401-849a-469cca4b1728))
     (pin "1" (uuid 92815761-b11d-41ca-a105-93f894c26fa4))
+    (pin "2" (uuid 2d4de90f-da3f-4401-849a-469cca4b1728))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -4918,19 +4941,19 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 257.81 50.8 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 257.81 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 603daefa-aeac-4458-9792-3e84a87b7438)
-    (property "Reference" "#PWR01" (at 257.81 54.61 0)
+    (property "Reference" "#PWR01" (at 257.81 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 257.81 45.72 0)
+    (property "Value" "+5V" (at 257.81 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 257.81 50.8 0)
+    (property "Footprint" "" (at 257.81 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 257.81 50.8 0)
+    (property "Datasheet" "" (at 257.81 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e984f012-9de5-4fc3-9718-de97be858dbf))
@@ -5047,8 +5070,8 @@
     (property "Datasheet" "~" (at 232.41 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid d1f1f1da-7e99-4763-b156-85a27ccf4765))
     (pin "1" (uuid 8867b709-1865-488c-926c-680c7d7ae615))
+    (pin "2" (uuid d1f1f1da-7e99-4763-b156-85a27ccf4765))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -5076,49 +5099,49 @@
     (property "LCSC" "C356849" (at 62.23 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "40" (uuid 79c17667-c7eb-4e3e-8c75-99e413a805f0))
-    (pin "3" (uuid 4f593ebf-e0e4-440e-ab43-907fed5b90f4))
-    (pin "43" (uuid 53e0cc18-5f76-4b74-92e4-0cdee96d2dce))
-    (pin "24" (uuid a20926d3-a5d0-4593-ad28-6049fac14d99))
-    (pin "22" (uuid 4c4b65a9-a470-439d-b1ba-5c46192bce5e))
-    (pin "32" (uuid cc4b6fa5-9b65-4b10-931a-8f991b4cded0))
-    (pin "14" (uuid 1e5d26e9-f2bc-4705-8139-ea781d5d0625))
-    (pin "41" (uuid 4a326c30-ca3b-445c-919b-4a646a9022f5))
-    (pin "35" (uuid d00dda9b-07b6-40a8-8da6-02cb3a4844dc))
-    (pin "18" (uuid 389d1829-764c-4a83-9f40-0d83494e01c0))
-    (pin "27" (uuid 2e6413b3-4fe4-4c33-872e-450286ce6742))
-    (pin "37" (uuid e4266064-183e-4313-b284-3efc93e9c354))
-    (pin "28" (uuid 6c8fd82b-85c3-4380-ad55-58911cdfab55))
-    (pin "9" (uuid a4b79dbb-6a59-46b6-b1bd-828ae1fa1015))
-    (pin "5" (uuid 767868fe-eb00-4992-970a-302056cc89ca))
-    (pin "17" (uuid 7bff99e1-78b5-436a-912e-cd6de48cb36a))
-    (pin "2" (uuid e46540ed-8f09-4f0a-87b0-485552ce83c6))
-    (pin "39" (uuid bdff4f27-f4a3-4f2d-bcb6-084f2133b49f))
-    (pin "20" (uuid 8f3aef82-2ef0-47b8-a9de-fa86f3039503))
-    (pin "21" (uuid a08d1d34-7dbb-4c6e-91f2-8b99b485fa31))
-    (pin "11" (uuid af4d247c-98eb-44f3-857d-655ceae4b236))
-    (pin "36" (uuid 3b8a549e-3bf3-4a70-bdfc-5fd63d3375fc))
-    (pin "31" (uuid e35a62a4-2d51-4c91-987f-cb79ad6f616f))
-    (pin "10" (uuid 56b430e4-1055-4388-adea-4a753e3ee98c))
-    (pin "13" (uuid f74f5799-af49-4b88-b944-1950195258a9))
-    (pin "42" (uuid 413f785a-1bef-4362-8d2e-54cfaabef6d6))
-    (pin "23" (uuid dfb0e58f-cef3-4504-b0f0-32eb04070f80))
-    (pin "16" (uuid 1cf8926b-3923-4a6e-a256-81588efdeedc))
-    (pin "29" (uuid e40400c7-5d6f-44f4-9097-a7ab4ce9f8bb))
-    (pin "38" (uuid 78a7bd3c-386d-49e4-8d89-1a9aaabafd03))
-    (pin "6" (uuid 94afa287-6c51-4d60-ace0-6ceffd36b305))
-    (pin "30" (uuid 8439784b-c680-48a9-b3a0-bcdec0d10f8e))
-    (pin "33" (uuid b972cbaf-99c6-4dac-a108-39fbe236cb3c))
-    (pin "4" (uuid 8077d114-c37e-4373-8afd-f1156bab6904))
-    (pin "12" (uuid 43f2e119-7daa-4789-a2e0-152933e967e1))
-    (pin "7" (uuid d1cb6bf5-00bc-4922-8680-a6b2ffd440c7))
-    (pin "19" (uuid 50cc63b6-8a42-426c-88b1-ea643a7e7cda))
-    (pin "8" (uuid ccb25165-e5a9-41a5-bee8-1f2a52fd89b4))
-    (pin "26" (uuid 29225f62-0732-4f8b-b7db-ee9b4bb39a66))
-    (pin "25" (uuid 0f28716b-1f48-49ac-aa95-41e5cff29434))
-    (pin "15" (uuid 1f79c753-db61-4769-b7fb-edd05c36ddc9))
-    (pin "34" (uuid 9f2ffef1-5291-4cd3-a9af-e3d799d8442e))
     (pin "1" (uuid fbd1479d-198a-4779-a311-b7c8bdd78a21))
+    (pin "10" (uuid 56b430e4-1055-4388-adea-4a753e3ee98c))
+    (pin "11" (uuid af4d247c-98eb-44f3-857d-655ceae4b236))
+    (pin "12" (uuid 43f2e119-7daa-4789-a2e0-152933e967e1))
+    (pin "13" (uuid f74f5799-af49-4b88-b944-1950195258a9))
+    (pin "14" (uuid 1e5d26e9-f2bc-4705-8139-ea781d5d0625))
+    (pin "15" (uuid 1f79c753-db61-4769-b7fb-edd05c36ddc9))
+    (pin "16" (uuid 1cf8926b-3923-4a6e-a256-81588efdeedc))
+    (pin "17" (uuid 7bff99e1-78b5-436a-912e-cd6de48cb36a))
+    (pin "18" (uuid 389d1829-764c-4a83-9f40-0d83494e01c0))
+    (pin "19" (uuid 50cc63b6-8a42-426c-88b1-ea643a7e7cda))
+    (pin "2" (uuid e46540ed-8f09-4f0a-87b0-485552ce83c6))
+    (pin "20" (uuid 8f3aef82-2ef0-47b8-a9de-fa86f3039503))
+    (pin "22" (uuid 4c4b65a9-a470-439d-b1ba-5c46192bce5e))
+    (pin "23" (uuid dfb0e58f-cef3-4504-b0f0-32eb04070f80))
+    (pin "25" (uuid 0f28716b-1f48-49ac-aa95-41e5cff29434))
+    (pin "27" (uuid 2e6413b3-4fe4-4c33-872e-450286ce6742))
+    (pin "28" (uuid 6c8fd82b-85c3-4380-ad55-58911cdfab55))
+    (pin "29" (uuid e40400c7-5d6f-44f4-9097-a7ab4ce9f8bb))
+    (pin "3" (uuid 4f593ebf-e0e4-440e-ab43-907fed5b90f4))
+    (pin "30" (uuid 8439784b-c680-48a9-b3a0-bcdec0d10f8e))
+    (pin "31" (uuid e35a62a4-2d51-4c91-987f-cb79ad6f616f))
+    (pin "32" (uuid cc4b6fa5-9b65-4b10-931a-8f991b4cded0))
+    (pin "33" (uuid b972cbaf-99c6-4dac-a108-39fbe236cb3c))
+    (pin "34" (uuid 9f2ffef1-5291-4cd3-a9af-e3d799d8442e))
+    (pin "35" (uuid d00dda9b-07b6-40a8-8da6-02cb3a4844dc))
+    (pin "36" (uuid 3b8a549e-3bf3-4a70-bdfc-5fd63d3375fc))
+    (pin "37" (uuid e4266064-183e-4313-b284-3efc93e9c354))
+    (pin "38" (uuid 78a7bd3c-386d-49e4-8d89-1a9aaabafd03))
+    (pin "39" (uuid bdff4f27-f4a3-4f2d-bcb6-084f2133b49f))
+    (pin "4" (uuid 8077d114-c37e-4373-8afd-f1156bab6904))
+    (pin "40" (uuid 79c17667-c7eb-4e3e-8c75-99e413a805f0))
+    (pin "41" (uuid 4a326c30-ca3b-445c-919b-4a646a9022f5))
+    (pin "42" (uuid 413f785a-1bef-4362-8d2e-54cfaabef6d6))
+    (pin "43" (uuid 53e0cc18-5f76-4b74-92e4-0cdee96d2dce))
+    (pin "6" (uuid 94afa287-6c51-4d60-ace0-6ceffd36b305))
+    (pin "7" (uuid d1cb6bf5-00bc-4922-8680-a6b2ffd440c7))
+    (pin "8" (uuid ccb25165-e5a9-41a5-bee8-1f2a52fd89b4))
+    (pin "9" (uuid a4b79dbb-6a59-46b6-b1bd-828ae1fa1015))
+    (pin "21" (uuid a08d1d34-7dbb-4c6e-91f2-8b99b485fa31))
+    (pin "24" (uuid a20926d3-a5d0-4593-ad28-6049fac14d99))
+    (pin "26" (uuid 29225f62-0732-4f8b-b7db-ee9b4bb39a66))
+    (pin "5" (uuid 767868fe-eb00-4992-970a-302056cc89ca))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -5143,8 +5166,8 @@
     (property "Datasheet" "~" (at 201.93 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 20a1babf-2a3c-47cf-9e26-6016fe577979))
     (pin "1" (uuid 3c66ebb0-3bed-4ee7-ba67-bf427e42c2ed))
+    (pin "2" (uuid 20a1babf-2a3c-47cf-9e26-6016fe577979))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -5169,8 +5192,8 @@
     (property "Datasheet" "~" (at 200.66 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 2c044129-9bb9-4bb6-a203-825472a8e181))
     (pin "1" (uuid 692c8cc0-64b1-4a86-8de4-5b3515edee86))
+    (pin "2" (uuid 2c044129-9bb9-4bb6-a203-825472a8e181))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -5252,8 +5275,8 @@
     (property "Datasheet" "~" (at 80.01 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 35ea8a5a-c734-4c40-9198-ab0d43d8fbe6))
     (pin "1" (uuid 72c8e335-0dbd-4c8a-9673-f16bc517f2c4))
+    (pin "2" (uuid 35ea8a5a-c734-4c40-9198-ab0d43d8fbe6))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -5360,8 +5383,8 @@
     (property "Datasheet" "~" (at 95.25 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 7afc0735-e172-4b95-a2ee-25a65b830b0b))
     (pin "1" (uuid d753e143-7f12-4f96-9813-33f61ee98e9c))
+    (pin "2" (uuid 7afc0735-e172-4b95-a2ee-25a65b830b0b))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -5413,8 +5436,8 @@
     (property "Datasheet" "~" (at 49.53 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 4bfddd84-a3b6-4ead-baa1-d9e1db4ed7ba))
     (pin "1" (uuid e557481a-ce06-4f8c-8967-f1ba396f1fc5))
+    (pin "2" (uuid 4bfddd84-a3b6-4ead-baa1-d9e1db4ed7ba))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -5439,8 +5462,8 @@
     (property "Datasheet" "~" (at 57.15 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid dc76450a-4a7f-42d7-8ff9-2c5dd1f2bf5c))
     (pin "1" (uuid 49e4cf93-b26d-49f7-b8c9-cffefdce9fbd))
+    (pin "2" (uuid dc76450a-4a7f-42d7-8ff9-2c5dd1f2bf5c))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -5465,8 +5488,8 @@
     (property "Datasheet" "~" (at 87.63 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 09897669-df03-4f1e-9483-66a88410abda))
     (pin "1" (uuid 8223a4bf-c54f-4ce3-b639-d599b00ece44))
+    (pin "2" (uuid 09897669-df03-4f1e-9483-66a88410abda))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -5491,8 +5514,8 @@
     (property "Datasheet" "~" (at 64.77 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid d4dbb167-9446-46b2-a0b5-8c34809a4e5d))
     (pin "1" (uuid 3a60c3fc-4f40-45c2-b7cc-7ee002a5d2f4))
+    (pin "2" (uuid d4dbb167-9446-46b2-a0b5-8c34809a4e5d))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -5517,8 +5540,8 @@
     (property "Datasheet" "~" (at 87.63 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 2337f7a7-416c-4815-8119-58f1523e2dbe))
     (pin "1" (uuid bc43f05f-9f4f-47fa-ac68-8a9aca5cacca))
+    (pin "2" (uuid 2337f7a7-416c-4815-8119-58f1523e2dbe))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -5568,8 +5591,8 @@
     (property "Datasheet" "~" (at 233.68 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 6392a9c0-7704-498b-91d2-a50a778416cc))
     (pin "1" (uuid dfad3c33-3476-4da0-9969-375eb3be85df))
+    (pin "2" (uuid 6392a9c0-7704-498b-91d2-a50a778416cc))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -5626,8 +5649,8 @@
     (property "Datasheet" "~" (at 41.91 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 0e27f7ee-a9be-419c-bd0b-21a6594547e9))
     (pin "1" (uuid 2849cc3d-94d4-4bb1-b51c-dfff28c79cf1))
+    (pin "2" (uuid 0e27f7ee-a9be-419c-bd0b-21a6594547e9))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -5652,12 +5675,42 @@
     (property "Datasheet" "~" (at 41.91 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 230ee0a5-cb5c-486d-bf0d-100edae68e8d))
     (pin "1" (uuid 4beaf20d-ca36-4b5c-ba6b-632c51839682))
+    (pin "2" (uuid 230ee0a5-cb5c-486d-bf0d-100edae68e8d))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
           (reference "CH27") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "PCM_marbastlib-various:SRV05-4") (at 257.81 58.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9028b79d-a2b6-48ba-8be3-321b5b44874e)
+    (property "Reference" "U5" (at 261.4361 43.18 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "SRV05-4" (at 261.4361 45.72 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-various:SOT-23-6-routable" (at 275.59 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" (at 257.81 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 609f70ec-8716-4a9c-ac01-603f141b414c))
+    (pin "2" (uuid 9563a204-ef2b-45fc-b1ef-5f36ea1f0bdd))
+    (pin "3" (uuid 2c0a511d-f132-449d-982f-7be2e85d717e))
+    (pin "4" (uuid d94c977f-0626-4b55-9282-bbac6a77df9e))
+    (pin "5" (uuid 93ff16cc-21d9-48f8-8e82-834cf68caccc))
+    (pin "6" (uuid 4bff8ae7-cead-48ee-a443-0b2b220bcc3f))
+    (instances
+      (project "kiboard_wireless"
+        (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -5710,8 +5763,8 @@
     (property "Datasheet" "~" (at 72.39 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 631da148-0a47-4b0a-b4ca-0763cf80f7aa))
     (pin "1" (uuid ad1f9479-56c9-4d0d-a68e-bdf8eba497aa))
+    (pin "2" (uuid 631da148-0a47-4b0a-b4ca-0763cf80f7aa))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -5844,8 +5897,8 @@
     (property "Datasheet" "~" (at 26.67 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 80e96c3d-a383-4b92-a6f9-82c3778d2a1c))
     (pin "1" (uuid 699220e2-8f98-4c48-8405-053626a5a131))
+    (pin "2" (uuid 80e96c3d-a383-4b92-a6f9-82c3778d2a1c))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -5902,8 +5955,8 @@
     (property "Datasheet" "~" (at 102.87 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 73e3681c-3d3c-4a10-bf20-6cc8ad8bcd2f))
     (pin "1" (uuid 148f4598-c3ac-4f00-ab4c-ee56f7f4da0d))
+    (pin "2" (uuid 73e3681c-3d3c-4a10-bf20-6cc8ad8bcd2f))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -5928,8 +5981,8 @@
     (property "Datasheet" "~" (at 110.49 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 07c1aeed-e645-4f07-9232-b958a6de2142))
     (pin "1" (uuid 41d6d578-1f1f-4f7b-8159-cec4c023b1dd))
+    (pin "2" (uuid 07c1aeed-e645-4f07-9232-b958a6de2142))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -5986,8 +6039,8 @@
     (property "Datasheet" "~" (at 64.77 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 42664c23-02eb-4994-a5a6-d1a3fb8197a7))
     (pin "1" (uuid 015aa8e8-bad9-44dd-a3c0-44a9c9ec7aa3))
+    (pin "2" (uuid 42664c23-02eb-4994-a5a6-d1a3fb8197a7))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -6012,8 +6065,8 @@
     (property "Datasheet" "~" (at 57.15 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid f4847d6e-81f8-4bf7-a89c-cbd08287765d))
     (pin "1" (uuid 22397f97-4afe-48ea-ae3d-4e7a54c33fcb))
+    (pin "2" (uuid f4847d6e-81f8-4bf7-a89c-cbd08287765d))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -6038,8 +6091,8 @@
     (property "Datasheet" "~" (at 226.06 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid e2f7d28d-cc4c-49a6-8a75-90b99c34c127))
     (pin "1" (uuid 617d9c46-511d-4cb5-af28-3c842dff9863))
+    (pin "2" (uuid e2f7d28d-cc4c-49a6-8a75-90b99c34c127))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -6064,8 +6117,8 @@
     (property "Datasheet" "~" (at 237.49 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid f8cb7275-6b4f-411e-9c20-35c8c471514b))
     (pin "1" (uuid 672faf14-eaae-422d-b2f8-01a781d03794))
+    (pin "2" (uuid f8cb7275-6b4f-411e-9c20-35c8c471514b))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -6090,8 +6143,8 @@
     (property "Datasheet" "~" (at 271.78 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 1a9a992f-be02-409b-9e79-bd89822421d0))
     (pin "1" (uuid 62c2fbeb-61ad-4e96-a85a-d842edb9847f))
+    (pin "2" (uuid 1a9a992f-be02-409b-9e79-bd89822421d0))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -6116,8 +6169,8 @@
     (property "Datasheet" "~" (at 26.67 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid e28f6bbe-3289-4a05-a203-8a754ae874a9))
     (pin "1" (uuid 77994d20-8996-47eb-9e17-fa137fd2dd6b))
+    (pin "2" (uuid e28f6bbe-3289-4a05-a203-8a754ae874a9))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -6142,8 +6195,8 @@
     (property "Datasheet" "~" (at 102.87 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c4253024-121c-4561-a95e-c6aa6195ea1d))
     (pin "1" (uuid b3da8d9e-2ab4-46f3-ba2b-7b43a30f7561))
+    (pin "2" (uuid c4253024-121c-4561-a95e-c6aa6195ea1d))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -6282,8 +6335,8 @@
     (property "Datasheet" "~" (at 64.77 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid b264422b-cf6d-4249-9bae-1031fc267081))
     (pin "1" (uuid 3224a8c9-df55-4f95-9522-6680f7ad5893))
+    (pin "2" (uuid b264422b-cf6d-4249-9bae-1031fc267081))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -6308,8 +6361,8 @@
     (property "Datasheet" "~" (at 229.87 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 89a82da4-1a5a-4cb7-80c6-7a3dcee584cc))
     (pin "1" (uuid e3b760f9-4fdc-4417-a7b4-9d3f759c8c56))
+    (pin "2" (uuid 89a82da4-1a5a-4cb7-80c6-7a3dcee584cc))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -6334,8 +6387,8 @@
     (property "Datasheet" "~" (at 245.11 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid abbb8903-4fc0-4ca5-b22e-5c0312c87625))
     (pin "1" (uuid 48e71bff-a760-49a2-b784-aa21b6ada133))
+    (pin "2" (uuid abbb8903-4fc0-4ca5-b22e-5c0312c87625))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -6360,8 +6413,8 @@
     (property "Datasheet" "~" (at 102.87 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 0808eab7-09a5-4787-97c3-4af25a559c13))
     (pin "1" (uuid ac3c47f1-ba2e-469a-81d5-4b1f249bc7f2))
+    (pin "2" (uuid 0808eab7-09a5-4787-97c3-4af25a559c13))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -6386,8 +6439,8 @@
     (property "Datasheet" "~" (at 248.92 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 9c21b757-143c-4407-a171-da208a69969f))
     (pin "1" (uuid 77d7c2aa-18c6-4cf0-97b3-4d9d162c4aa3))
+    (pin "2" (uuid 9c21b757-143c-4407-a171-da208a69969f))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -6476,23 +6529,23 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq24075.pdf" (at 232.41 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "9" (uuid 5d6e136d-d538-4be9-ae60-3b80522f0fca))
-    (pin "16" (uuid 63dfd2e9-d167-49b7-b0cd-e4aa8bcfe1c6))
-    (pin "12" (uuid d5a62c7e-fd96-48a4-81d7-1a0fde4537d0))
-    (pin "4" (uuid bcc95a32-281b-420d-9ec6-f06b005065e1))
-    (pin "11" (uuid d305eb7f-08e7-4434-a5e0-aef5c46522ab))
-    (pin "13" (uuid 01e6ff1f-68db-4cd8-ba07-ba805f14a75e))
-    (pin "15" (uuid 8e1bc275-93ca-4bb8-a6c1-2b1fd40cc5b5))
-    (pin "6" (uuid 1183d379-9137-4656-a7a0-1bfe46b564bf))
-    (pin "3" (uuid 01511c5d-445c-4368-b0dd-b143811529cd))
-    (pin "10" (uuid 8d55893d-5b15-4ad8-aa00-ec23bf442ea3))
     (pin "1" (uuid 0dcf940a-3ea8-4254-acc3-e733cf156895))
+    (pin "10" (uuid 8d55893d-5b15-4ad8-aa00-ec23bf442ea3))
+    (pin "11" (uuid d305eb7f-08e7-4434-a5e0-aef5c46522ab))
+    (pin "12" (uuid d5a62c7e-fd96-48a4-81d7-1a0fde4537d0))
+    (pin "13" (uuid 01e6ff1f-68db-4cd8-ba07-ba805f14a75e))
     (pin "14" (uuid 5a38fb95-4dfa-4f38-bf24-4f4125047f8a))
+    (pin "15" (uuid 8e1bc275-93ca-4bb8-a6c1-2b1fd40cc5b5))
+    (pin "16" (uuid 63dfd2e9-d167-49b7-b0cd-e4aa8bcfe1c6))
     (pin "17" (uuid 9a21690e-e68b-4670-88a0-aca8118e2c96))
     (pin "2" (uuid 3e6fb2db-cb03-445e-8b80-3026ab3824d9))
+    (pin "3" (uuid 01511c5d-445c-4368-b0dd-b143811529cd))
+    (pin "4" (uuid bcc95a32-281b-420d-9ec6-f06b005065e1))
     (pin "5" (uuid dbf90d29-eae0-4c33-92ce-64764f90ef89))
+    (pin "6" (uuid 1183d379-9137-4656-a7a0-1bfe46b564bf))
     (pin "7" (uuid 859035cb-0504-4f9a-931b-45b3089ad2f4))
     (pin "8" (uuid b1f557b6-ca51-427c-9b50-96d3c342cb9f))
+    (pin "9" (uuid 5d6e136d-d538-4be9-ae60-3b80522f0fca))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -6549,8 +6602,8 @@
     (property "Datasheet" "~" (at 241.3 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 34be59ee-3102-4b6a-9fac-9548363efd3a))
     (pin "1" (uuid 6c18ce81-7600-4b91-929f-c47bbf7f1baf))
+    (pin "2" (uuid 34be59ee-3102-4b6a-9fac-9548363efd3a))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -6771,8 +6824,8 @@
     (property "Datasheet" "~" (at 95.25 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid d9a26a4a-54e1-42fe-a92f-969e9b2034cc))
     (pin "1" (uuid b75b6ed6-1680-4fa0-a4a4-a237af811f44))
+    (pin "2" (uuid d9a26a4a-54e1-42fe-a92f-969e9b2034cc))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -6854,8 +6907,8 @@
     (property "Datasheet" "~" (at 64.77 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid bbd41678-7fe8-4923-a221-ab671449e375))
     (pin "1" (uuid c93efdd8-a310-42ea-8a5d-75de93773e79))
+    (pin "2" (uuid bbd41678-7fe8-4923-a221-ab671449e375))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -6912,8 +6965,8 @@
     (property "Datasheet" "~" (at 248.92 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 5db1de47-9830-4d65-97b2-89361af458e8))
     (pin "1" (uuid c5f71f13-21fb-4cbe-a634-3ff2a027de71))
+    (pin "2" (uuid 5db1de47-9830-4d65-97b2-89361af458e8))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -7092,8 +7145,8 @@
     (property "Datasheet" "~" (at 26.67 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a74f61f8-910a-4932-8b1a-54b4cac97bad))
     (pin "1" (uuid 96568077-a6b0-42e4-a5fb-0e65e1831537))
+    (pin "2" (uuid a74f61f8-910a-4932-8b1a-54b4cac97bad))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -7118,8 +7171,8 @@
     (property "Datasheet" "~" (at 57.15 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid d228faca-14ac-44a5-95d9-2ed545f95489))
     (pin "1" (uuid ba8f0ae4-6d5a-4f74-b482-b1fc43a882e5))
+    (pin "2" (uuid d228faca-14ac-44a5-95d9-2ed545f95489))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -7144,23 +7197,23 @@
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (at 217.17 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "B9" (uuid bd8f4b99-97d7-47b4-bc69-4963665b66c4))
-    (pin "B12" (uuid 168ea045-2353-4bc9-b4d9-09c963db91ef))
-    (pin "B6" (uuid 48c7caf8-c6b8-463c-afaa-abcecb98c542))
-    (pin "A4" (uuid 1f800d84-2800-40a9-975a-88c7957eaff9))
-    (pin "A6" (uuid b3395696-1fdc-4c12-ac58-17974b7877d2))
-    (pin "B7" (uuid 3e2ac29a-3bb4-430e-be9f-5931f32dd5a4))
-    (pin "A9" (uuid f1667877-91b6-435f-9013-947e5d7e02d4))
-    (pin "A12" (uuid 08d31980-1fc7-458e-b55a-d4644dc21bfe))
-    (pin "B4" (uuid 78965ec9-c4bd-4004-a35e-fe2b136be6bb))
-    (pin "A8" (uuid 17104d7b-0eef-4a2c-b770-a06b78b299c5))
-    (pin "B1" (uuid d9227f27-6959-43a6-b1d8-577776ba8bd9))
-    (pin "B8" (uuid 3bbd7fc9-084e-430c-95fa-ae42e22e0850))
-    (pin "S1" (uuid cd32986b-2982-49ac-bc69-4651c7fd5baf))
-    (pin "A7" (uuid 7854ca3a-c93e-4e30-956c-0c36c04b2c4e))
-    (pin "A5" (uuid e316eda2-1eec-469e-b13a-229b6087b2da))
     (pin "A1" (uuid 3d63b112-f0ff-4272-8080-03ccabb512c9))
+    (pin "A12" (uuid 08d31980-1fc7-458e-b55a-d4644dc21bfe))
+    (pin "A4" (uuid 1f800d84-2800-40a9-975a-88c7957eaff9))
+    (pin "A5" (uuid e316eda2-1eec-469e-b13a-229b6087b2da))
+    (pin "A6" (uuid b3395696-1fdc-4c12-ac58-17974b7877d2))
+    (pin "A7" (uuid 7854ca3a-c93e-4e30-956c-0c36c04b2c4e))
+    (pin "A8" (uuid 17104d7b-0eef-4a2c-b770-a06b78b299c5))
+    (pin "A9" (uuid f1667877-91b6-435f-9013-947e5d7e02d4))
+    (pin "B1" (uuid d9227f27-6959-43a6-b1d8-577776ba8bd9))
+    (pin "B12" (uuid 168ea045-2353-4bc9-b4d9-09c963db91ef))
+    (pin "B4" (uuid 78965ec9-c4bd-4004-a35e-fe2b136be6bb))
     (pin "B5" (uuid f006dd02-c819-47df-863c-b76a09013eab))
+    (pin "B6" (uuid 48c7caf8-c6b8-463c-afaa-abcecb98c542))
+    (pin "B7" (uuid 3e2ac29a-3bb4-430e-be9f-5931f32dd5a4))
+    (pin "B8" (uuid 3bbd7fc9-084e-430c-95fa-ae42e22e0850))
+    (pin "B9" (uuid bd8f4b99-97d7-47b4-bc69-4963665b66c4))
+    (pin "S1" (uuid cd32986b-2982-49ac-bc69-4651c7fd5baf))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -7185,8 +7238,8 @@
     (property "Datasheet" "~" (at 95.25 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid d36c59ec-98e4-4725-984a-4a293b7b9004))
     (pin "1" (uuid ef8b998a-9fe7-4138-bf66-f370885fc752))
+    (pin "2" (uuid d36c59ec-98e4-4725-984a-4a293b7b9004))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -7211,8 +7264,8 @@
     (property "Datasheet" "~" (at 57.15 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid b0e68887-3ada-4862-b71f-b73ec3cbf12c))
     (pin "1" (uuid b5f97c39-8170-4069-8bb1-727fa1256fc1))
+    (pin "2" (uuid b0e68887-3ada-4862-b71f-b73ec3cbf12c))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -7237,8 +7290,8 @@
     (property "Datasheet" "~" (at 72.39 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid aadbb79b-aae0-4d74-ad9b-03e1c8c04562))
     (pin "1" (uuid 3d115859-f6df-41ea-a405-8fcacd0f9ab6))
+    (pin "2" (uuid aadbb79b-aae0-4d74-ad9b-03e1c8c04562))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -7263,8 +7316,8 @@
     (property "Datasheet" "~" (at 41.91 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 257a0e8f-1bdc-4957-9979-f8436af10185))
     (pin "1" (uuid c6ee8661-bf42-4836-aa59-60d05cab494d))
+    (pin "2" (uuid 257a0e8f-1bdc-4957-9979-f8436af10185))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -7289,8 +7342,8 @@
     (property "Datasheet" "~" (at 254 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid bb6580d9-1585-49bc-8f77-b75cc6ddbd8a))
     (pin "1" (uuid 7ea6a9d9-5f8d-45dc-be8f-11b0db6fc67c))
+    (pin "2" (uuid bb6580d9-1585-49bc-8f77-b75cc6ddbd8a))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -7340,15 +7393,15 @@
     (property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX17048-MAX17049.pdf" (at 206.375 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "6" (uuid ad5f8791-3c22-4f2b-bc69-89fbad7522de))
-    (pin "9" (uuid 2765a251-bb92-42cb-9a64-945f58dfdf60))
-    (pin "3" (uuid cf832567-139b-4cd1-8a72-fc77f31af97f))
-    (pin "2" (uuid 798da7de-6483-44f6-8895-ce135a5716ed))
-    (pin "7" (uuid 9d5eacf0-d9f5-4cb3-b9bd-372b9ac787fe))
     (pin "1" (uuid a7944245-ea25-4458-8470-75625c403057))
-    (pin "8" (uuid a5d18890-4a83-4764-ba76-3946c26735c5))
+    (pin "2" (uuid 798da7de-6483-44f6-8895-ce135a5716ed))
+    (pin "3" (uuid cf832567-139b-4cd1-8a72-fc77f31af97f))
     (pin "4" (uuid 1dcdbc01-4d60-4176-ac38-cc48e3ae37aa))
     (pin "5" (uuid dd79a613-941d-446c-90cf-d7af83e4d970))
+    (pin "6" (uuid ad5f8791-3c22-4f2b-bc69-89fbad7522de))
+    (pin "7" (uuid 9d5eacf0-d9f5-4cb3-b9bd-372b9ac787fe))
+    (pin "8" (uuid a5d18890-4a83-4764-ba76-3946c26735c5))
+    (pin "9" (uuid 2765a251-bb92-42cb-9a64-945f58dfdf60))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -7373,8 +7426,8 @@
     (property "Datasheet" "~" (at 204.47 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a6c6b0a1-8f24-4e5c-9508-be71735578e1))
     (pin "1" (uuid d7b6ff21-a761-4708-8012-70fb25728c92))
+    (pin "2" (uuid a6c6b0a1-8f24-4e5c-9508-be71735578e1))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -7399,8 +7452,8 @@
     (property "Datasheet" "~" (at 102.87 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 97bab172-230f-467f-b832-f8b0a3fbfc28))
     (pin "1" (uuid 127710cd-5a40-40c3-a6be-7bdccb5dc3ea))
+    (pin "2" (uuid 97bab172-230f-467f-b832-f8b0a3fbfc28))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -7546,8 +7599,8 @@
     (property "Datasheet" "~" (at 80.01 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 3c3b6d3f-6137-4b22-b1b5-7c09fb93975e))
     (pin "1" (uuid 97e5ef50-edb5-45f8-be77-9ee0bd2682dd))
+    (pin "2" (uuid 3c3b6d3f-6137-4b22-b1b5-7c09fb93975e))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -7572,8 +7625,8 @@
     (property "Datasheet" "~" (at 72.39 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c834bcb1-8627-4eec-a717-2fec3c15f2c3))
     (pin "1" (uuid 6184c7d3-9855-49d9-ab24-a3cf6727f3f4))
+    (pin "2" (uuid c834bcb1-8627-4eec-a717-2fec3c15f2c3))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -7630,8 +7683,8 @@
     (property "Datasheet" "~" (at 245.11 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid ae9831f1-3984-4e56-aa9b-25bc10dc8a36))
     (pin "1" (uuid c6f8d869-5341-417d-9149-e098f6fc93ea))
+    (pin "2" (uuid ae9831f1-3984-4e56-aa9b-25bc10dc8a36))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -7656,8 +7709,8 @@
     (property "Datasheet" "~" (at 34.29 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 911505c2-9729-4519-8fa5-c9cfe715dc15))
     (pin "1" (uuid 1859f141-2a43-43e2-81b9-36d5e6ce12eb))
+    (pin "2" (uuid 911505c2-9729-4519-8fa5-c9cfe715dc15))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
@@ -7714,8 +7767,8 @@
     (property "Datasheet" "~" (at 198.12 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid b4c402c8-81e8-478e-962f-1aacec32868a))
     (pin "1" (uuid b05dee32-c68c-4b4e-8f22-e1897da87e48))
+    (pin "2" (uuid b4c402c8-81e8-478e-962f-1aacec32868a))
     (instances
       (project "kiboard_wireless"
         (path "/a41a75ce-527e-4f2d-88b5-04ca993e78be"
