@@ -2,7 +2,7 @@
 
   (uuid a41a75ce-527e-4f2d-88b5-04ca993e78be)
 
-  (paper "A4")
+  (paper "A3")
 
   (lib_symbols
     (symbol "Battery_Management:BQ24075RGT" (in_bom yes) (on_board yes)
