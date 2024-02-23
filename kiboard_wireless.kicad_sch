@@ -4730,7 +4730,7 @@
     (property "Value" "TC2030_SWD" (at 133.35 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "PCM_marbastlib-various:CON_TC2030_outlined" (at 135.89 60.96 90)
+    (property "Footprint" "paw:Paw-Connect_RevB_TC2030-IDC-NL_2x03_P1.27mm_Vertical" (at 135.89 60.96 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (at 93.345 76.2 0)
